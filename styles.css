@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid #eee;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #828282;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+  margin: 5px 0;
+  transition: all 0.5s;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.item:hover {
+  background: #f6f4f4;
+  border: 1px solid #b7b7b7;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.heap {
+  background: #ff85e4;
+}
+.discussion {
+  background: #68e0cf;
+}
+.progress {
+  background: #84fab0;
+}
+
+.test {
+  background: #229efd;
+}
+
+.done {
+  background: #8fd3f4;
+}
+
+.hold {
+  border: 5px solid #9c9393;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 2px dashed #c88eed;
+}
